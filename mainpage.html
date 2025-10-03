@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Main Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="main-body">
+
+<div class="nav">
+  <div class="links">
+    <a href="mainpage.html" class="active">Home</a>
+    <a href="discussion.html">Discussion</a>
+    <a href="biography.html">Biography</a>
+  </div>
+  <a class="support" href="mailto:1002577628@ucsiuniversity.edu.my">Support</a>
+</div>
+
+<h1>Welcome to Hussain's Website</h1>
+<br>
+<p class="intro-text">This is my assignment website.</p>
+<br>
+<h2>Navigation</h2>
+<div class="card-nav">
+  <div class="card-box">
+    <a href="mainpage.html" class="card active">Home</a>
+    <p class="intro-text">This is the main page. Here you can see the welcome and course info.</p>
+  </div>
+<br>
+  <div class="card-box">
+    <a href="discussion.html" class="card">Discussion</a>
+    <p class="intro-text">This page contains my assignment discussion and feedback section.</p>
+  </div>
+<br>
+  <div class="card-box">
+    <a href="biography.html" class="card">Biography</a>
+    <p class="intro-text">Here you will find my biography, study details, hobbies, and timetable.</p>
+  </div>
+</div>
+<br>
+<h2>Course Information</h2>
+<table class="table">
+  <tr>
+    <th>Course</th>
+    <th>Code</th>
+    <th>Lecturer</th>
+  </tr>
+  <tr>
+    <td>Introduction to Internet Technologies</td>
+    <td>BIC1234</td>
+    <td>Asst. Prof. Dr. Fatima Nadeem</td>
+  </tr>
+</table>
+<br><br>
+ <button id="leaveBtn">Leave this website</button>
+<br><br><br>
+<footer>
+  <p>&copy; 2025 Hussain Khan. All rights reserved.</p>
+</footer>
+
+<script>
+  var btn = document.getElementById("leaveBtn");
+  btn.onclick = function(){
+    alert("Not allowed to leave until you explore everything!");
+    };
+</script>
+</body>
+</html>

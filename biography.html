@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Biography</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+  <div class="links">
+    <a href="mainpage.html">Home</a>
+    <a href="discussion.html">Discussion</a>
+    <a href="biography.html" class="active">Biography</a>
+  </div>
+  <a class="support" href="mailto:1002577628@ucsiuniversity.edu.my">Support</a>
+</div>
+
+<h1>Get to know me</h1>
+
+<div class="bio-header">
+  <table class="bio-card">
+    <tr>
+      <td class="bio-name">I am Hussain Khan a 20 Y/O guy.</td>
+      <td class="bio-id">with ID no. of: 1002577628</td>
+    </tr>
+    <tr>
+      <td colspan="2" class="bio-photo">
+        <img id="myPhoto" src="images/myphoto.jpg" alt="My Photo" class="avatar">
+      </td>
+    </tr>
+ </table>
+</div>
+
+<h2>My Study</h2>
+<table class="bio-card">
+  <tr>
+    <td class="bio-name">I am on my first sem on Computer Science in AI at UCSI University</td>
+  </tr>
+  <tr>
+    <td><img src="images/study.jpg" alt="Study photo" class="avatar"></td>
+  </tr>
+</table>
+
+<h2>My Hobbies</h2>
+<table class="bio-card">
+  <tr>
+    <td class="bio-id">I enjoy gaming espicially since im alone here</td>
+  </tr>
+  <tr>
+    <td><img src="images/gaming.jpg" alt="Hobby photo" class="avatar"></td></tr>
+</table>
+<h2>My timetable</h2>
+<table class="table">
+  <thead>
+    <tr>
+      <th>Course</th>
+      <th>Code</th>
+      <th>Time</th>
+      <th>Location</th>
+    </tr>
+  </thead>
+  <tbody>
+     <tr>
+      <td>Introduction to Programming</td>
+      <td>BIC1114</td>
+      <td>Wed 12:00 - 14:00</td>
+      <td>C402</td>
+    </tr>
+    <tr>
+      <td>Cloud computing</td>
+      <TD>BIC3113</TD>
+      <td>Thu 18:00 - 20:00</td>
+      <td>C301</td>
+    </tr>
+    <tr>
+      <td>Introduction to internet technologies </td>
+      <TD>BIC1234</TD>
+      <td>Tue 18:00 - 20:00</td>
+      <td>GG08</td>
+    </tr>
+    <tr>
+        <td>Computer organazation</td>
+        <TD>BIC1244</TD>
+        <td>Tue 09:00 - 10:00</td>
+        <td>GGO7</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="contact-works">
+  <div class="contact">
+    <h2>Contact Me</h2>
+    <table class="bio-card">
+      <tr>
+        <td><a href="mailto:1002577628@ucsiuniversity.edu.my">Email</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://wa.me/+60133291182" target="_blank">WhatsApp</a></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="works">
+    <h2>My Works</h2>
+    <table class="bio-card">
+      <tr>
+        <td><a href="https://github.com/Hussaink10" target="_blank">GitHub</a></td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<script>
+  const avatar = document.getElementById("myPhoto");
+
+  avatar.addEventListener("mouseover", () => {
+    avatar.style.filter = "none";  
+  }
+);
+  avatar.addEventListener("mouseout", () => {
+    avatar.style.filter = "blur(5px)";  
+  }
+);
+
+  avatar.style.filter = "blur(5px)";
+</script>
+
+<footer>
+  <p>&copy; 2025 Hussain Khan. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

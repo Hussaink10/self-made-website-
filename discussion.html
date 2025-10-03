@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discussion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="nav">
+  <div class="links">
+    <a href="mainpage.html">Home</a>
+    <a href="discussion.html" class="active">Discussion</a>
+    <a href="biography.html">Biography</a>
+  </div>
+  <a class="support" href="mailto:1002577628@ucsiuniversity.edu.my">Support</a>
+</div>
+
+<h1>Assignment Discussion Page</h1>
+
+<div class="discussion-box">
+  <h2>How smart is AI in Education</h2>
+  <br><br>
+  <h3>Groups' decision</h3>
+  <p>So based on the assignment report our group has agreed to an answer which was:AI is very smart and that it will help a lot in education.</p>
+  <br><br>
+  <h3>My opinion</h3>
+  <p>Since my part was the Introduction and the Conclusion, I didn't express my opinion much up until the video presentation.</p>
+<br><br>
+  <h3>My presentation</h3>
+  <video id="pvid" width="600" class="video" controls preload="metadata">
+    <source src="videos/presentation.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <p class="download-link">
+  <a href="videos/presentation.mp4" download="MyPresentation.mp4" target="_blank" rel="noopener">
+    Download Video
+  </a>
+</p>
+  <br>
+  <p> To be honest not many people said that it will shape the future of education, that was my opinon based on my research because yes i belive AI will take over on almost every aspect</p>
+  <br>
+  <h3>Why?</h3>
+  <p>Simple, imagine being so smart, its great right? what if you become smarter everyday? terrifying? indeed.</p>
+  <p>such level of improvment skill will one day make AI very popular more than it is now and that includes education purposes. </p>
+  <br> 
+  <div class="feedback-box">
+  <h3>What do you think?</h3>
+  <form id="feedbackForm">
+    <textarea id="comment" rows="4" cols="40" placeholder="Write your opinion here..."></textarea><br><br>
+    <button type="submit">Send</button>
+  </form>
+</div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Hussain Khan. All rights reserved.</p>
+</footer>
+
+<script>
+
+  const form = document.getElementById("feedbackForm");
+
+  form.addEventListener("submit", function(e) {
+    alert("Thanks for your feedback!"); 
+   }
+  );
+
+</script>
+</body>
+</html>
